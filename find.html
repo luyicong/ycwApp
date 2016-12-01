@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <style type="text/css">
+    	#header{background:#FBFAFA;box-shadow: none;}
+    	#header .mui-btn-link{font-size: 16px;}
+    	#header .mui-btn-link .mui-icon{font-size: 20px;}
+    	#header .mui-title{padding-left: 22px;text-align: left;line-height: 28px;}
+    	#header .mui-title a span{margin-left: 10px;font-size: 18px;}
+    	#header .mui-icon,#header .mui-btn-nav{color:#FE7373;}
+    	#header .mui-btn-nav .mui-icon,#header .mui-title a span{color:#C8C7C7;}
+    	.find-top-search{width: 100%;height: 26px;margin-top:9px;background:rgba(0,0,0,.1);display: block;border-radius: 14px;}
+		.find-top-search span.pacText{font-size:14px;}
+		/*#header .mui-btn-link{font-size: 16px;}*/
+    	#header .find-top-search span.pacText{font-size:14px;}
+		</style>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init({
+      		subpages: [{
+						id: 'find-content',
+						url: 'find-content.html',
+						styles: {
+							top: '45px',
+							bottom: '50px',
+							bounce: 'vertical'
+						}
+					}]
+      	});
+    </script>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav">
+		<a href="#" class="mui-btn mui-btn-link mui-btn-nav mui-pull-left">
+			首页<span class="mui-icon mui-icon-arrowdown"></span>
+		</a>
+		<h1 class="mui-title">
+			<a class="find-top-search" href="#"><span class="mui-icon mui-icon-search"></span><span class="pacText">请输入职位或公司</span></a>
+		</h1>
+		<a class="mui-icon mui-icon-camera mui-pull-right"></a>
+	</header>
+</body>
+</html>

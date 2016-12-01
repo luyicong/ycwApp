@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+</head>
+<body>
+	<header id="header" class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">前端开发工程师</h1>
+		</header>
+	<script type="text/javascript">
+		mui.init();
+		window.addEventListener('newsId',function(event){
+		  //获得事件参数
+		  var id = event.detail.id;
+		  //根据id向服务器请求新闻详情
+		  alert(id);
+		});
+	</script>
+</body>
+</html>
