@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/message/message.css">
+	</head>
+
+	<body>
+		<header id="message-header" class="mui-bar mui-bar-nav">
+			<h1 id="title" class="mui-title">消息</h1>
+		</header>
+		<div class="mui-content">
+			<ul id="message-list" class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="images/60x60.gif" />
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name" style="color:#FFBB30;">投递记录</h4>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									暂无新消息
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="images/60x60.gif" />
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name" style="color:#2BCBFF;">谁看过我</h4>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									暂无新消息
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div id="other-btn">
+				<p>还在苦苦等待反馈？</p>
+				<p>好职位需要你主动出击</p>
+				<a class="look-job-btn" href="#">查找合适的职位</a>
+			</div>
+		</div>
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+</html>

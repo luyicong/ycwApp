@@ -1,0 +1,24 @@
+#user-header{
+	width: 100%;
+	height: 220px;
+	background:#F65050;
+	text-align: center;
+	padding-top: 41px;
+}
+.Head-portrait{
+	width:76px;
+	height: 76px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-radius: 38px;
+	display: block;
+	margin:0 auto 35px auto;
+	overflow: hidden;
+}
+.Head-portrait img{width: 100%;height: 100%;}
+.user-name{font-size: 20px;color: #FFFFFF;}
+#info-nav{margin-top: 0;}
+#info-nav a{color:#5C5C5C;}
+#info-nav .mui-icon{margin-left: -7px;font-size: 26px;}
+#info-nav li:after{left: 39px;}
+#info-nav.mui-table-view:after{height:0;}

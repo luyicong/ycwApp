@@ -1,0 +1,51 @@
+html,body {
+	background-color: #efeff4;
+}
+#message-header{
+	box-shadow: none;
+	border-bottom: 1px solid #EBEBEB;
+}
+#message-header #title{
+	color:#FF5A5A;
+	font-weight: bold;
+	font-size: 18px;
+}
+ .oa-contact-cell.mui-table .mui-table-cell {
+	padding: 11px 0;
+	vertical-align: middle;
+}
+
+.oa-contact-cell {
+	position: relative;
+	margin: -11px 0;
+}
+
+.oa-contact-avatar {
+	width: 75px;
+}
+.oa-contact-avatar img {
+	border-radius: 50%;
+}
+.oa-contact-content {
+	width: 100%;
+}
+.oa-contact-name {
+	margin-right: 20px;
+}
+.oa-contact-name, oa-contact-position {
+	float: left;
+}
+#message-list{
+	margin-top: 0;
+}
+#message-list li:after{
+	left: 0;
+	color:#EBEBEB;
+}
+#other-btn{
+	padding-top: 150px;
+	text-align: center;
+}
+#other-btn p{margin:0;}
+.look-job-btn{display:block;width: 220px;height: 40px;border-radius:5px;color: #FFFFFF;
+font-size: 20px;line-height: 40px;margin:30px auto 0 auto;background:#FF5A5A;}
