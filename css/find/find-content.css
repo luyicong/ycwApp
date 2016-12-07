@@ -20,3 +20,6 @@ color:#8E8E8E;position: relative;}
 .workplace .mui-media{padding-top: 18px;padding-top:18px;}
 .workplace .mui-table-view-cell:after{left: 0;}
 .workplace .mui-table-view .mui-media-object{max-width: 70px;height: 60px;}
+.find-content #slider{min-height: 213px;}
+#slider .mui-slider-item{min-height:213px;}
+.find-content #slider img{width:100%;height: 100%;}
